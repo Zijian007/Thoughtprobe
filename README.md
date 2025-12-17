@@ -1,6 +1,12 @@
-# Thoughtprobe
+# ThoughtProbe
 
-A research project for probing and analyzing thought processes in language models using tree search decoding and multi-layer probing techniques.
+Official code implementation for the EMNLP 2025 main conference paper:
+
+**[ThoughtProbe: Classifier-Guided LLM Thought Space Exploration via Probing Representations](https://aclanthology.org/2025.emnlp-main.307.pdf)**
+
+*Zijian Wang and Chang Xu*
+
+This project explores and analyzes thought processes in language models using classifier-guided tree search decoding and multi-layer probing techniques.
 
 ## Environment Setup
 
@@ -39,3 +45,28 @@ Edit `config.py` to customize:
 - `Prober/` - Thought probing models (LR, SVM)
 - `Utils/` - Helper utilities and tools
 - `dataset/` - Dataset files
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{wang-xu-2025-thoughtprobe,
+    title = "{T}hought{P}robe: Classifier-Guided {LLM} Thought Space Exploration via Probing Representations",
+    author = "Wang, Zijian  and
+      Xu, Chang",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.307/",
+    doi = "10.18653/v1/2025.emnlp-main.307",
+    pages = "6029--6050",
+    ISBN = "979-8-89176-332-6",
+}
+```
